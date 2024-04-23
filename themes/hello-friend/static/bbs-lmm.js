@@ -24,7 +24,7 @@ const cdnGravatar = "https://cravatar.cn/avatar/"
 let urls = [
   {
     home:"https://www.4op.top/",
-    host:"https://flomo.010316.xyz/",
+    host:"https://memos.4op.top/",
     imgsrc:cdnGravatar+"81f9378195d84e8ff73aad9ded2b9808"
   },{
     home:"https://immmmm.com/",
