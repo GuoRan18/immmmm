@@ -23,6 +23,10 @@ function getQueryVariable(variable){
 const cdnGravatar = "https://cravatar.cn/avatar/"
 let urls = [
   {
+    home:"https://www.4op.top/",
+    host:"https://flomo.010316.xyz/",
+    imgsrc:cdnGravatar+"81f9378195d84e8ff73aad9ded2b9808"
+  },{
     home:"https://immmmm.com/",
     host:"https://me.edui.fun/",
     creatorId:"101",
@@ -266,7 +270,7 @@ let urls = [
     home:"https://usj.cc/",
     host:"https://memos.usj.cc/",
     artEnv:"https://artalk.usj.cc",
-    artSite:"优世界",
+    artSite:"优世�,
     imgsrc:cdnGravatar+"1cce0a22c2c7648eab76ec876c6a54d9"
   },{
     home:"https://blog.xlap.top/",
@@ -328,7 +332,7 @@ function allUrls(urls){
 }
 
 function nextFetch(){
-  document.querySelector("button.button-load").textContent= '加载中……';
+  document.querySelector("button.button-load").textContent= '加载中��;
   updateHTMl(nextDatas)
   if(nextLength < 10){
     document.querySelector("#load").remove()
@@ -406,7 +410,7 @@ function urlsNow(e){
       updateHTMl(bbsDatas)
       bbDom.insertAdjacentHTML('afterend', load);
       let nowLength = bbsData.length
-      if(nowLength < 10){ //返回数据条数小于 limit 则直接移除“加载更多”按钮，中断预加载
+      if(nowLength < 10){ //返回数据条数小于 limit 则直接移除�加载更多�按钮，中断预加�
         document.querySelector("#load").remove()
         return
       }
@@ -434,7 +438,7 @@ function insertTwikoo(e) {
     console.error(err);
   });
 }
-//预加载下一页数据
+//预加载下�页数�
 function getNextList(){
   let bbUrl = bbUrlNow+"&offset="+offset;
   fetch(bbUrl).then(res => res.json()).then( resdata =>{
@@ -511,7 +515,7 @@ const fetchBBser = async () => {
           let dateNow = new Date()
           let dateDiff = dateNow.getTime() - (resValue.updatedTs * 1000);
           let dayDiff = Math.floor(dateDiff / (24 * 3600 * 1000));
-          if(dayDiff < 10 ){//显示10天内更新的 Memos
+          if(dayDiff < 10 ){//显示10天内更新�Memos
             bbsData = {
               memoId: resValue.id,
               updatedTs: resValue.updatedTs,
@@ -621,7 +625,7 @@ async function updateHTMl(data){
         .replace(YOUKU_REG, "<div class='video-wrapper'><iframe src='https://player.youku.com/embed/$1' frameborder=0 'allowfullscreen'></iframe></div>")
         .replace(YOUTUBE_REG, "<div class='video-wrapper'><iframe src='https://www.youtube.com/embed/$1' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen title='YouTube Video'></iframe></div>")
 
-      //解析 content 内 md 格式图片
+      //解析 content �md 格式图片
       let IMG_ARR = data[i].content.match(IMG_REG) || '',IMG_ARR_Grid = "";
       if(IMG_ARR){
         let IMG_ARR_Length = IMG_ARR.length,IMG_ARR_Url = "";
