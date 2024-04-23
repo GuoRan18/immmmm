@@ -12,28 +12,13 @@ var memosDom = document.querySelector(memosData.dom);
 let memoList
 var memoDefaultList = [
   {
-    "creatorName": "林木木",
-    "website": "https://immmmm.com",
-    "link": "https://me.edui.fun",
-    "creatorId": "101",
-    "avatar": "https://gravatar.memobbs.app/avatar/ba83fa02fc4b2ba621514941307e21be?s=80",
-    "twikoo": "https://metk.edui.fun"
-  },{
-    "creatorName": "归臧",
-    "website": "https://nuoea.com/",
-    "link": "https://memos.nuoea.com",
-    "creatorId": "101",
-    "avatar": "https://gravatar.memobbs.app/avatar/020d365ea2596ef6d516143bb0552704?s=80",
-    "twikoo": "https://twikoo.nuoea.com"
-  },{
-    "creatorName": "koobai",
-    "website": "https://koobai.com",
-    "link": "https://memos.koobai.com",
-    "creatorId": "1",
-    "avatar": "https://gravatar.memobbs.app/avatar/3b3d336a7d389b7ae8531cbe177ae9b7?s=80",
-    "artalk": "https://c.koobai.com",
-    "artSite": "空白唠叨"
-  }
+    "creatorName" : "北海轻歌",
+    "website" : "https://memos.4op.top",
+    "link" : "https://memos.4op.top",
+    "creatorId" : "1",
+    "avatar" : "https://cravatar.cn/avatar/81f9378195d84e8ff73aad9ded2b9808?s=80",
+    "twikoo" : "https://c.4op.top"
+    }
 ];
 
 var userNow = `
