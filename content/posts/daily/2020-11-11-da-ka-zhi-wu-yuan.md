@@ -17,14 +17,14 @@ permalink: zhi-wu-yuan
 
 后来没办法，最后一个馆也不去了，抱着果然回车里睡觉吧，正好下午，阳光充足，车里温度合适。
 
-<div class="mdui-row-xs-2">
-<img src="https://img.010316.xyz/usr/hugo/IMG_20201107_220715.jpg" class="mdui-col">
-<img src="https://img.010316.xyz/usr/hugo/IMG_20201107_215134.jpg" class="mdui-col">
-<img src="https://img.010316.xyz/usr/hugo/IMG_20201107_153036.jpg" class="mdui-col">
-<img src="https://img.010316.xyz/usr/hugo/IMG_20201107_220342.jpg" class="mdui-col">
-<img src="https://img.010316.xyz/usr/hugo/IMG_20201107_220237.jpg" class="mdui-col">
-<img src="https://img.010316.xyz/usr/hugo/IMG_20201107_220601.jpg" class="mdui-col">
-</div>
+![](https://img.010316.xyz/usr/hugo/IMG_20201107_220715.jpg)
+![](https://img.010316.xyz/usr/hugo/IMG_20201107_215134.jpg)
+
+![](https://img.010316.xyz/usr/hugo/IMG_20201107_153036.jpg)
+![](https://img.010316.xyz/usr/hugo/IMG_20201107_220342.jpg)
+![](https://img.010316.xyz/usr/hugo/IMG_20201107_220237.jpg)
+![](https://img.010316.xyz/usr/hugo/IMG_20201107_220601.jpg)
+
 > 第二张是我为了查项目，一直在馆里面走来走去，找一个信息好点的地方发现的一处意外风景，随手拍了下来，挺喜欢这个感觉。
 
 从植物园出来以后，顺路去了趟公司加了一个小时班，把领导安排的工作给完成了。然后又去了趟许西，媳妇被安利了一家鸡蛋灌饼，满怀欣喜找了好久，到手以后，吃了两口，不是她喜欢的味道，甩给我了。我本来是是略带拒绝的，被强迫吃了一口，嗯？味道还不错啊，那我吃了吧。
