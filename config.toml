@@ -46,7 +46,7 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
   weight="6"
 
 [Author]
-  name = "林木木"
+  name = "琛苏"
   
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -64,7 +64,7 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
   DateFormatSingle = "2006-01-02 15:04:05"
   ReadMore = "阅读全文"
 
-  EditPath = 'https://github.com/lmm214/immmmm/edit/master/content'
+  EditPath = 'https://github.com/GuoRan18/immmmm/edit/master/content'
 
 [markup]
   [markup.goldmark]
