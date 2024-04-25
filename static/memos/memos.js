@@ -17,7 +17,7 @@ var memoDefaultList = [
     "link" : "https://memos.4op.top",
     "creatorId" : "1",
     "avatar" : "https://cravatar.cn/avatar/81f9378195d84e8ff73aad9ded2b9808?s=80",
-    "twikoo" : "https://c.4op.top"
+    "twikoo" : "https://c.4op.top:8080"
     }
 ];
 
