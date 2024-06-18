@@ -2,7 +2,7 @@ baseURL  =  "https://im.uuuz.eu.org"
 languageCode = "zh-CN"
 # DefaultContentLanguage = "zh-CN"
 title  =  "北海轻歌"
-subtitle = "不问明天，悠然浪费"
+subtitle = "记录一个城市中的一个人."
 
 
 theme  =  "hello-friend"
@@ -11,7 +11,7 @@ hasCJKLanguage = true
 # 每页显示的文章数量用于分页
 paginate =  10
 # rss 输出数量
-rssLimit = 5
+rssLimit = 7
 timeout = '10m'
 ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
 
