@@ -17,7 +17,7 @@
   
   <div class="posts posts-home home grid-cols-2">
 
-    {{ range first 5 $paginator.Pages }}
+    {{ range first 3 $paginator.Pages }}
     <div class="post first col-span-2 {{ if .Params.feature -}}home-1{{- end -}}">
       {{ if .Params.feature }}
         {{ if .Params.UseRelativeCover }}
@@ -53,7 +53,7 @@
     </div>
     {{ end }}
 
-    {{ range first 4 (after 1 $paginator.Pages) }}
+    {{ range first 6 (after 1 $paginator.Pages) }}
     <div class="post col-span-1 home-2">
       {{ if .Params.feature }}
         {{ if .Params.UseRelativeCover }}
