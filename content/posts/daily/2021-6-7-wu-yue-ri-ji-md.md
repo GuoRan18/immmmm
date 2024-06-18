@@ -5,6 +5,7 @@ tags: [日常]
 published: true
 hideInList: false
 isTop: false
+feature: https://img.010316.xyz/usr/hugo/image-20210607154134160.png
 ---
 这是一个忙碌的五月。
 
