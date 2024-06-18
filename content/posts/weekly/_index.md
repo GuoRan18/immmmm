@@ -1,4 +1,4 @@
 ---
-title: "周刊"
+title: "游记"
 slug: "weekly"
 ---
