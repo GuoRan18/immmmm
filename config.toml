@@ -1,4 +1,4 @@
-baseURL  =  "https://im.uuuz.eu.org"
+baseURL  =  "https://www.4op.top"
 languageCode = "zh-CN"
 # DefaultContentLanguage = "zh-CN"
 title  =  "北海轻歌"
@@ -25,10 +25,6 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
   url="/bbs/"
   weight="1"
   [[menu.main]]
-  name="友圈"
-  url="/friends/"
-  weight="2"
-  [[menu.main]]
   name="好物"
   url="/goods/"
   weight="3"
@@ -37,8 +33,8 @@ ignoreErrors = ["error-remote-getjson","error-remote-getcsv"]
   url="/archives/"
   weight="4"
   [[menu.main]]
-  name="导航"
-  url="https://edui123.com/"
+  name="前任"
+  url="https://blog.4op.top/"
   weight="5"
   [[menu.main]]
   name="关于"
