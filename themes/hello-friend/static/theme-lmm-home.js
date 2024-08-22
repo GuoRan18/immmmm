@@ -5,9 +5,9 @@ if(bbDom){memoTalks();}
 function memoTalks(){
 var bbUrl = "https://memos.4op.top/api/v1/memos?creatorId=1&rowStatus=NORMAL&limit=10"
 fetch(bbUrl).then(res => res.json()).then( resdata =>{
-    var result = '',resultAll="",data = resdata
+    var result = '',resultAll="",data = resdata.memos
     for(var i=0;i < data.length;i++){
-        var bbTime = new Date(data[i].createdTs * 1000).toLocaleString()
+        var bbTime = data[i].createTime
         var bbCont = data[i].content
         var newbbCont = bbCont.replace(/!\[.*?\]\((.*?)\)/g,' <a href="$1" target="_blank">🌅</a> ').replace(/\[(.*?)\]\((.*?)\)/g,' <a href="$2" target="_blank">$1 🔗</a> ')
         result += `<li class="item"><span class="datetime">${bbTime}</span>： <a href="/bbs/">${newbbCont}</a></li>`;
