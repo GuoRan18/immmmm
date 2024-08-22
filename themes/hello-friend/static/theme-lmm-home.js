@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 var bbDom = document.querySelector('#bber-talk') || '';
 if(bbDom){memoTalks();}
 function memoTalks(){
-var bbUrl = "https://memos.4op.top/api/v1/memo?creatorId=1&rowStatus=NORMAL&limit=10"
+var bbUrl = "https://memos.4op.top/api/v1/memos?creatorId=1&rowStatus=NORMAL&limit=10"
 fetch(bbUrl).then(res => res.json()).then( resdata =>{
     var result = '',resultAll="",data = resdata
     for(var i=0;i < data.length;i++){
@@ -34,7 +34,7 @@ var memoUrl = "https://memos.4op.top/"
 if(albumDom){memoAlbum(6);}
 function memoAlbum(numb){
     let limit = numb || 8;
-    var galleryUrl = memoUrl+"api/v1/memo?creatorId=1&rowStatus=NORMAL&limit="+limit+"&tag=相册"
+    var galleryUrl = memoUrl+"api/v1/memos?creatorId=1&rowStatus=NORMAL&limit="+limit+"&tag=相册"
     var localalbumUpdated = JSON.parse(localStorage.getItem("albumUpdated")) || '';
     var localalbumData = JSON.parse(localStorage.getItem("albumData")) || '';
     if(localalbumData){
