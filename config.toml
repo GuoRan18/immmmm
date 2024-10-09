@@ -5,7 +5,7 @@ title  =  "北海轻歌"
 subtitle = "记录一个城市中的一个人."
 
 
-theme  =  "hello-friend"
+theme  =  "hugo-theme-farallon"
 summaryLength = 140
 hasCJKLanguage = true
 # 每页显示的文章数量用于分页
